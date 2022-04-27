@@ -1,3 +1,5 @@
 #82A5BA - Blue/Grey
-#AABEC6 - Light Grey
+#AABEC6 - Light Blue/Grey
 #1C2433 - Black
+#CCC - Grey
+#AAA - Hover Grey

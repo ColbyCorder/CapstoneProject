@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <!-- Link to font Awesome -->
     <script src="https://kit.fontawesome.com/a0e15cef47.js" crossorigin="anonymous"></script>
     <!-- Link to style sheet -->
     <link rel="stylesheet" href="styles.css">
     <title>First Aid Simplified</title>
 </head>
+
 <body>
-        <!-- Navbar -->
-        <nav class="navbar">
-            <a class="logo">
-                <i class="fa-solid fa-briefcase-medical"></i>
-                First Aid Simplified
-            </a>
-            <a href="#" class="toggle-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="navbar-links">
-                <ul>
-                    <li data-tab-target="#home" class="active tab"><a href="#">Home</a></li>
-                    <li data-tab-target="#head" class="tab"><a href="#">Head</a></li>
-                    <li data-tab-target="#neck" class="tab"><a href="#">Neck</a></li>
-                    <li data-tab-target="#chest" class="tab"><a href="#">Chest</a></li>
-                    <li data-tab-target="#arms-hands" class="tab"><a href="#">Arms/Hands</a></li>
-                    <li data-tab-target="#legs-feet" class="tab"><a href="#">Legs/Feet</a></li>
-                </ul>
-            </div>
-        </nav>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a class="logo">
+            <i class="fa-solid fa-briefcase-medical"></i>
+            First Aid Simplified
+        </a>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li data-tab-target="#home" class="active tab"><a href="#">Home</a></li>
+                <li data-tab-target="#head" class="tab"><a href="#">Head</a></li>
+                <li data-tab-target="#neck" class="tab"><a href="#">Neck</a></li>
+                <li data-tab-target="#chest" class="tab"><a href="#">Chest</a></li>
+                <li data-tab-target="#arms-hands" class="tab"><a href="#">Arms/Hands</a></li>
+                <li data-tab-target="#legs-feet" class="tab"><a href="#">Legs/Feet</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- Content goes in tabs -->
     <div class="tab-content">
         <div id="home" data-tab-content class="active">
-            <h1>Home</h1>
-            <p>This is the home</p>
+            <h1>Welcome to First Aid Simplified</h1>
+            <p>This website is designed to help you with simple first aid problems that you can do at home. Click on
+                tabs to see how you can take care of your situation.</p>
+            <p><strong>DISCLAIMER:</strong> This website should not be your first resort. If it is serious medical
+                situation, please contact a certified medical personnel. All information was provided by the American
+                Red Cross Foundation and Various Medical Websites.</p>
         </div>
         <div id="head" data-tab-content>
             <h1>Head</h1>
@@ -61,6 +71,12 @@
             <p>This is the Legs/Feet</p>
         </div>
     </div>
+
+    <footer>
+        <p>Contact Our Developers:</p>
+        <p>Colby: <a href="https://github.com/ColbyCorder" target="_blank">GitHub</a> <a href="https://www.linkedin.com/in/colby-corder-55b94a230/" target="_blank">Linkedin</a></p>/Thomas: /Amanda:</p>
+    </footer>
     <script src="script.js"></script>
 </body>
+
 </html>

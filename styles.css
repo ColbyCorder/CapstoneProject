@@ -79,38 +79,62 @@ body {
 
 [data-tab-content] {
     display: none;
-  }
+}
   
-  .active[data-tab-content] {
+.active[data-tab-content] {
     display: block;
-  }
+}
   
-  .tabs {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border-bottom: 1px solid black;
-  }
-  
-  .tab {
+.tab {
     cursor: pointer;
     padding: 10px;
-  }
+}
   
-  .tab.active {
-    background-color: #CCC;
-  }
+.tab.active {
+  background-color: #CCC;
+}
+
+.tab:hover {
+  background-color: #AAA;
+}
   
-  .tab:hover {
-    background-color: #AAA;
-  }
-  
-  .tab-content {
+.tab-content {
     margin-left: 20px;
     margin-right: 20px;
-  }
+}
+/* HOME TAB */
+
+#home{
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+
+#home p{
+    font-size: 20px;
+}
+
+
+/* FOOTER */
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #82A5BA;
+    color: White;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+/* MOBILE */
 
 @media (max-width: 800px) {
     .navbar {
